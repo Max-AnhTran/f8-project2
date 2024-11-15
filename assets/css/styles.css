@@ -4,7 +4,7 @@
 
 :root {
     --primary-color: #171100;
-    --secondary-color: #FFB900;
+    --secondary-color: #ffb900;
     --primary-font: Poppins;
 }
 
@@ -348,9 +348,9 @@ a {
     border-radius: 99px;
 }
 
-.popular .page .page-change:hover  {
+.popular .page .page-change:hover {
     cursor: pointer;
-    color: #FFF;
+    color: #fff;
     background-color: var(--secondary-color);
 }
 
@@ -363,7 +363,7 @@ a {
     flex: 1;
     border-radius: 12px;
     background: #fff;
-    border: 1px solid #E2DFDA;
+    border: 1px solid #e2dfda;
 }
 
 .popular .items .item:hover {
@@ -512,4 +512,81 @@ a {
     position: absolute;
     top: -28px;
     left: -30px;
+}
+
+/* FEATURE */
+
+.feature {
+    padding: 200px 0;
+}
+
+.feature .sub-title {
+    font-family: Sen;
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 4.8rem; /* 126.316% */
+    letter-spacing: -0.076rem;
+}
+
+.feature .desc {
+    margin-top: 16px;
+    color: #5f5b53;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.8rem; /* 175% */
+}
+
+.feature .btn {
+    margin-top: 32px;
+    background: var(--secondary-color);
+    min-width: 137px;
+}
+
+.feature .btn:hover {
+    background: #e0a709;
+}
+
+.feature .image {
+    border-radius: 16px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.feature .row {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature1 .image {
+    width: 270px;
+    height: 405px;
+}
+
+.feature1 .two-imgs {
+    display: flex;
+    height: 438px;
+    gap: 30px;
+    align-items: flex-end;
+}
+
+.feature1 .image2 {
+    align-self: flex-start;
+}
+
+.feature1 .info-block {
+    width: 40.2%;
+}
+
+.feature2 {
+    padding-top: 200px;
+}
+
+.feature2 .image {
+    width: 470px;
+    height: 440px;
+}
+
+.feature2 .info-block {
+    width: 48.7%;
 }

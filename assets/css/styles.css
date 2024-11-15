@@ -403,3 +403,78 @@ a {
     color: #fff;
     background: #ffb900;
 }
+
+/* FEEDBACK */
+
+.feedback {
+    padding: 96px 0;
+    background: #2e2100;
+}
+
+.feedback .row {
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.feedback .author {
+    white-space: nowrap;
+}
+
+.feedback .author .image {
+    width: 72px;
+    height: 72px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 99px;
+}
+
+.feedback .author .name {
+    margin-top: 18px;
+    color: #f7f7f7;
+    font-family: Sen;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 3.4rem; /* 141.667% */
+}
+
+.feedback .author .desc {
+    margin-top: 4px;
+    color: #bfbcb2;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.6rem; /* 185.714% */
+}
+
+.feedback .author .dots {
+    margin-top: 28px;
+}
+
+.feedback .author span {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background: #634700;
+    border-radius: 99px;
+}
+
+.feedback .author span:nth-child(2) {
+    background: #ffb900;
+    margin: 0 6px;
+}
+
+.feedback .quote {
+    position: relative;
+    top: -3px;
+    width: 63.25%;
+    color: #fff;
+    font-size: 2.6rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 4rem; /* 153.846% */
+}
+
+.feedback .quote .icon {
+    position: absolute;
+    top: -28px;
+    left: -30px;
+}
